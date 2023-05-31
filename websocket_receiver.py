@@ -4,7 +4,7 @@ from datetime import datetime
 import json
 import csv
 
-file_path = 'dump.txt' #choose your file path
+file_path = 'dump.txt'  # choose your file path
 server = 'wss://7ju75f7wai.execute-api.eu-south-1.amazonaws.com/Prod/'
 
 async def receiver():
